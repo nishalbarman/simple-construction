@@ -1,7 +1,7 @@
 import React, { useEffect, useMemo, useRef, useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import "./App.css";
-import AccordionItem from "./components/ui/accordion";
+import AccordionItem from "./components/accordion";
 
 function App() {
   const steps = [
