@@ -219,7 +219,7 @@ function App() {
           ))}
         </div>
 
-        <div className="w-fit h-fit mt-1 mb-7">
+        <div className="w-fit h-fit mt-1 mb-7 h-74">
           <AnimatePresence mode="wait">
             <motion.img
               key={steps[selectedStep].id}
