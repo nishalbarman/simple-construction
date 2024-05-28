@@ -182,7 +182,6 @@ function App() {
           </button>
         </section>
       </div>
-      (
       <div className="flex flex-col items-center justify-center bg-[rgb(255,246,244)] p-4 w-full  py-11">
         <h2 className="text-3xl text-[rgb(52,6,86)] font-bold mb-3">
           How it works
@@ -258,7 +257,6 @@ function App() {
           Start Your Construction
         </button>
       </div>
-      );
       <div className="flex flex-col items-center justify-center bg-white p-4 w-full pt-8 pb-11">
         <h2 className="text-3xl text-[rgb(52,6,86)] font-bold mb-3">FAQ</h2>
         {accordionData.map((item, index) => (
